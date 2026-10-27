@@ -49,7 +49,7 @@
   "author": "LFY-sys",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LFY-sys/cortico-world-slim.git"
+    "url": "git+https://github.com/LFY-sys/cortico-world-slim.git"
   },
   "homepage": "https://github.com/LFY-sys/cortico-world-slim#readme",
   "bugs": {
