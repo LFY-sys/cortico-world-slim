@@ -1,0 +1,58 @@
+{
+  "name": "cortico-world-slim",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "给大肥鱼用的上下文瘦身包：把工作区里越堆越厚的交接笔记折成一份摘要，旧笔记移到工作区外的归档目录，每轮自动维护——少读原文，少花 token。Fold ever-growing handoff notes into one digest and archive the old ones outside the workspace.",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "src",
+    "describe.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "上下文瘦身",
+    "describe": "describe.json",
+    "tags": [],
+    "locales": {
+      "zh": {
+        "displayName": "上下文瘦身",
+        "description": "把工作区里越堆越厚的交接笔记折成一份摘要，旧笔记移出工作区归档；每轮对话后自动检查，读摘要就能接上之前的事，不必把旧笔记原文再读一遍。"
+      },
+      "en": {
+        "displayName": "Slim Context",
+        "description": "Folds the ever-growing handoff notes in the workspace into one digest, archives the old ones outside the workspace, and keeps it current after every turn — so catching up costs a short read instead of the whole pile."
+      }
+    }
+  },
+  "keywords": [
+    "cortico-world",
+    "cortico",
+    "context",
+    "memory",
+    "tokens",
+    "handoff",
+    "digest",
+    "desktop-pet",
+    "coopanion"
+  ],
+  "license": "MIT",
+  "author": "LFY-sys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LFY-sys/cortico-world-slim.git"
+  },
+  "homepage": "https://github.com/LFY-sys/cortico-world-slim#readme",
+  "bugs": {
+    "url": "https://github.com/LFY-sys/cortico-world-slim/issues"
+  }
+}
